@@ -25,7 +25,7 @@ SECRET_KEY = '!f)cl@s(9rk*gs1$#5f7sc=3)5w&@sgcfr)xegwel^=f%_*6m*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ferrison.pythonanywhere.com']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'land',
 ]
 
 MIDDLEWARE = [
